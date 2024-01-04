@@ -1,0 +1,26 @@
+.lesson-example {
+  margin: 24px 0;
+  isolation: isolate;
+  z-index: 1;
+}
+.lesson-example-controls {
+  display: flex;
+  justify-content: space-around;
+  z-index: 10;
+  text-align: left;
+  isolation: isolate;
+  z-index: 10;
+  border: 3px solid var(--dark-jungle-green);
+  background-color: rgba(var(--light-grey-rgb), 0.5);
+  padding: 12px;
+}
+.lesson-example-controls label {
+  margin-right: 8px;
+}
+.lesson-example-controls .control-group {
+  margin: 24px 0;
+}
+.lesson-example-controls input.input-small {
+  width: 50px;
+  margin-right: 16px;
+}

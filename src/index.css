@@ -1,0 +1,50 @@
+/**
+ *  Global definitions
+ */
+
+:root {
+  --dark-jungle-green: #1f2421ff;
+  --dark-jungle-green-rgb: 31, 36, 33;
+  --shiny-shamrock: #49a078ff;
+  --shiny-shamrock-rgb: 73, 160, 120;
+  --steel-blue: #3581b8ff;
+  --steel-blue-rgb: 53, 129, 184;
+  --sizzling-red: #eb5160ff;
+  --lavender-blue: #c9c9eeff;
+  --light-grey: #eeeeee;
+  --light-grey-rgb: 238, 238, 238;
+  --text-color: #000;
+}
+
+/**
+ *  Resets
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--lavender-blue);
+}
+
+p {
+  text-align: left;
+  line-height: 1.3;
+}
+
+ul {
+  text-align: left;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  background-color: var(--light-grey);
+}

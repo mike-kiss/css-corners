@@ -1,0 +1,26 @@
+.lesson-content {
+  max-width: 800px;
+  padding: 24px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lesson-list li {
+  margin-bottom: 8px;
+  border-left: 1px solid #000;
+  padding-left: 8px;
+}
+
+ul.bulleted {
+  padding-left: 24px;
+}
+
+ul.bulleted li {
+  list-style-type: disc;
+  margin: 0;
+  border: none;
+}

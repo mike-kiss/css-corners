@@ -1,0 +1,5 @@
+.document-flow-example-1 {
+  top: 0;
+  border: 3px solid var(--dark-jungle-green);
+  background-color: rgba(var(--steel-blue-rgb), 0.5);
+}

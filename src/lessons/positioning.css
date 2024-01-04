@@ -1,0 +1,12 @@
+.positioning-container {
+  border: 3px solid var(--dark-jungle-green);
+  background-color: rgba(var(--shiny-shamrock-rgb), 0.5);
+  padding: 3px;
+}
+
+.positioning-element {
+  top: 0;
+  border: 3px solid var(--dark-jungle-green);
+  background-color: rgba(var(--steel-blue-rgb), 0.5);
+  padding: 3px;
+}
